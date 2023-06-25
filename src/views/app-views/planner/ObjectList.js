@@ -4,37 +4,37 @@ import { Button, Typography } from 'antd';
 export const objectsList = [
   {
     id: 1,
-    src: 'http://help.tvoistore.ru/wp-content/uploads/2023/06/stol1.png',
+    src: '/objects/stol1.png',
     name: 'На двоих 1',
   },
   {
     id: 2,
-    src: 'http://help.tvoistore.ru/wp-content/uploads/2023/06/stol2.png',
+    src: '/objects/stol2.png',
     name: 'На двоих 2',
   },
   {
     id: 3,
-    src: 'http://help.tvoistore.ru/wp-content/uploads/2023/06/stol3.png',
+    src: '/objects/stol3.png',
     name: 'На четверых 1',
   },
   {
     id: 4,
-    src: 'http://help.tvoistore.ru/wp-content/uploads/2023/06/stol4.png',
+    src: '/objects/stol4.png',
     name: 'На четверых 2',
   },
   {
     id: 5,
-    src: 'http://help.tvoistore.ru/wp-content/uploads/2023/06/stol5.png',
+    src: '/objects/stol5.png',
     name: 'На четверых 3',
   },
   {
     id: 6,
-    src: 'http://help.tvoistore.ru/wp-content/uploads/2023/06/stol6.png',
+    src: '/objects/stol6.png',
     name: 'На четверых 4',
   },
   {
     id: 7,
-    src: 'http://help.tvoistore.ru/wp-content/uploads/2023/06/stol7.png',
+    src: '/objects/stol7.png',
     name: 'Круглый стол',
   },
 ];
