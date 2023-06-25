@@ -45,21 +45,30 @@ export const LoginForm = (props) => {
   };
 
   const onLogin = (values) => {
-    showLoading();
+    // showLoading();
     // signIn(values);
-    localStorage.setItem('auth_token', tokenInstance);
+    setTimeout(() => {
+      localStorage.setItem('auth_token', tokenInstance);
+      window.location.href = '/';
+    }, [1000]);
   };
 
   const onGoogleLogin = () => {
-    showLoading();
+    // showLoading();
     // signInWithGoogle()
-    localStorage.setItem('auth_token', tokenInstance);
+    setTimeout(() => {
+      localStorage.setItem('auth_token', tokenInstance);
+      window.location.href = '/';
+    }, [1000]);
   };
 
   const onFacebookLogin = () => {
-    showLoading();
+    // showLoading();
     // signInWithFacebook()
-    localStorage.setItem('auth_token', tokenInstance);
+    setTimeout(() => {
+      localStorage.setItem('auth_token', tokenInstance);
+      window.location.href = '/';
+    }, [1000]);
   };
 
   useEffect(() => {
